@@ -65,6 +65,12 @@ Projenin backend'i, işlevselliği artıran ve geliştirmeyi hızlandıran bazı
 -   **`laravel/sanctum`**: Vue.js gibi SPA (Single Page Application) ön yüzleri için basit ve güvenli API kimlik doğrulaması (authentication) sağlar.
 -   **`spatie/laravel-permission`**: "Admin", "Yönetici" ve "Personel" gibi rolleri ve bu rollerin yetkilerini veritabanı üzerinden dinamik olarak yönetmeyi kolaylaştırır.
 
+## Kurulum
+
+### ⚠️ Önemli Not: Harici API Bağımlılığı
+
+Bu projenin tam olarak çalışabilmesi için, Araç ve Kart bilgilerini sağlayan **diğer API projesinin de yerel makinenizde çalışır durumda olması GEREKMEKTEDİR.** Lakin diğer proje bir sorundan dolayı kayıp oldu. Diğer proje tekrar yazıldığında kurulum kısmı eklenecektir.
+
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız.
