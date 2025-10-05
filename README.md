@@ -20,18 +20,18 @@ Proje, rol bazlı erişim kontrolü sunarak farklı yetkilere sahip kullanıcı 
     <td><img width="1999" height="1333" alt="image5" src="https://github.com/user-attachments/assets/fbf75f83-1fc9-4c2e-a831-dfb157bc3aa4" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Personel Detay Ekranı</strong></td>
+    <td align="center"><strong>Kart ve Bakiye Yönetimi</strong></td>
     <td align="center"><strong>Duyuru Yönetimi</strong></td>
   </tr>
   <tr>
-    <td><img width="1999" height="1333" alt="image7" src="https://github.com/user-attachments/assets/a81f367b-5d3e-4812-b95a-44b5bb6ab51f" /></td>
+    <td><img width="1999" height="1333" alt="image10" src="https://github.com/user-attachments/assets/4db3899c-f3ae-42d9-b919-6e2f3099321c" /></td>
     <td><img width="1999" height="1333" alt="image18" src="https://github.com/user-attachments/assets/b8fb8b84-c4d4-4208-a0d3-a8177d3047f9" /></td>
   </tr>
     <tr>
-    <td align="center" colspan="2"><strong>Kart ve Bakiye Yönetimi</strong></td>
+    <td align="center" colspan="2"><strong>Personel Detay Ekranı</strong></td>
   </tr>
     <tr>
-    <td colspan="2"><img width="1999" height="1333" alt="image10" src="https://github.com/user-attachments/assets/4db3899c-f3ae-42d9-b919-6e2f3099321c" /></td>
+    <td colspan="2"><img width="1999" height="1333" alt="image7" src="https://github.com/user-attachments/assets/a81f367b-5d3e-4812-b95a-44b5bb6ab51f" /></td>
   </tr>
 </table>
 
