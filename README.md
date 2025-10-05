@@ -65,28 +65,6 @@ Projenin backend'i, işlevselliği artıran ve geliştirmeyi hızlandıran bazı
 -   **`laravel/sanctum`**: Vue.js gibi SPA (Single Page Application) ön yüzleri için basit ve güvenli API kimlik doğrulaması (authentication) sağlar.
 -   **`spatie/laravel-permission`**: "Admin", "Yönetici" ve "Personel" gibi rolleri ve bu rollerin yetkilerini veritabanı üzerinden dinamik olarak yönetmeyi kolaylaştırır.
 
-## Kurulum
-
-### Harici API Bağımlılığı ve Mock Sunucusu
-Bu proje, normal çalışması için Araç ve Kart bilgilerini harici bir API servisinden alır. Geliştirme ortamında bu bağımlılığı ortadan kaldırmak için **dahili bir sahte (mock) API sunucusu** bulunmaktadır. `.env` dosyasındaki `EXTERNAL_API_MOCK_ENABLED=true` ayarı ile proje, harici servise gitmek yerine geliştirme için hazırlanmış sahte JSON verilerini kullanır.
-
-### Backend (Laravel)
-1.  Backend klasörüne gidin: `cd backend`
-2.  Bağımlılıkları yükleyin: `composer install`
-3.  `.env` dosyasını oluşturun: `cp .env.example .env`
-4.  `.env` dosyasını (veritabanı vb.) yapılandırın ve `EXTERNAL_API_MOCK_ENABLED=true` olduğundan emin olun.
-5.  Uygulama anahtarını oluşturun: `php artisan key:generate`
-6.  Veritabanını hazırlayın: `php artisan migrate --seed`
-7.  Sunucuyu başlatın: `php artisan serve`
-
-### Frontend (Vue.js)
-1.  Frontend klasörüne gidin: `cd frontend`
-2.  Bağımlılıkları yükleyin: `npm install`
-3.  `.env` dosyasını oluşturun ve `VITE_API_URL=http://localhost:8000` olarak ayarlayın.
-4.  Geliştirme sunucusunu başlatın: `npm run dev`
-
-Uygulama varsayılan olarak `http://localhost:5173` adresinde çalışacaktır.
-
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız.
